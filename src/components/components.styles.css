@@ -34,3 +34,9 @@ label {
     border-radius: 8px;
     margin: 10px;
 }
+
+/* apparently it does not work*/
+.input_search {
+
+    form-sizing: content;
+}

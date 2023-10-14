@@ -160,9 +160,10 @@ export const Home: React.FC = () => {
         <section className="section1">
           <div>
             <search>
-              <label htmlFor="details">Search tag it's a semantic tool</label> <br />
+              <label htmlFor="details">Search tag it's a semantic tool</label>{" "}
+              <br />
               <form action="movies">
-                <input type="text" id="movies" /> &nbsp;
+                <input type="text" id="movies" className='input_search' /> &nbsp;
                 <button type="submit">Seach</button>
               </form>
             </search>
