@@ -150,7 +150,9 @@ export const Home: React.FC = () => {
           <div>
             <label htmlFor="details">(doesn't work, new funcionality)</label>{" "}
             <br />
+            {/* @ts-ignore */}
             <button popovertarget="my-popover">Open Popover</button>
+            {/* @ts-ignore */}
             <div popover id="my-popover">
               Hello world!
             </div>
@@ -163,7 +165,8 @@ export const Home: React.FC = () => {
               <label htmlFor="details">Search tag it's a semantic tool</label>{" "}
               <br />
               <form action="movies">
-                <input type="text" id="movies" className='input_search' /> &nbsp;
+                <input type="text" id="movies" className="input_search" />{" "}
+                &nbsp;
                 <button type="submit">Seach</button>
               </form>
             </search>
